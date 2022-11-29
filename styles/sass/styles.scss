@@ -1,0 +1,51 @@
+@use "variables" as *;
+@use "setup";
+@use "nav";
+
+
+body {
+    background-color: green;
+    font-family: $baseFont;
+}
+
+
+
+
+// MIXIN is basically a variable with multiple properties
+
+@mixin position ($type, $top, $right) {
+    position: $type;
+    top: $top;
+    right: $right;
+}
+
+// OR
+
+// @mixin position () {
+//     position: absolute;
+//     top: 50px;
+//     right: 50px;
+// }
+
+
+div {
+    @include position(absolute, 50px, 50px)
+}
+
+// div {
+//     position: absolute;
+//     top: 50px;
+//     right: 50px;
+// }
+
+img {
+    @include position(relative, 50px, 20px)
+}
+
+// img {
+//     position: relative;
+//     top: 50px;
+//     right: 20px;
+// }
+
+
