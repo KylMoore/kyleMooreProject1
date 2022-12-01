@@ -226,33 +226,6 @@ html {
   overflow: hidden;
 }
 
-nav {
-  width: 500px;
-  background-color: papayawhip;
-}
-nav li {
-  border: 2px solid black;
-}
-nav li a {
-  color: hotpink;
-}
-nav li a:hover {
-  color: blue;
-}
-
 body {
-  background-color: green;
   font-family: "Helvetica";
-}
-
-div {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-}
-
-img {
-  position: relative;
-  top: 50px;
-  right: 20px;
 }
