@@ -1,14 +1,5 @@
-@use "./variables" as *;
-@use "./setup";
-@use "./nav";
-@use "./typography";
-@use "./header";
-
-html {
-    
-}
-
-body {
-    font-family: $baseFont;
-}
-
+@use "./partials/variables" as *;
+@use "./partials/setup" as *;
+@use "./partials/nav" as *;
+@use "./partials/typography" as *;
+@use "./partials/header" as *;

@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+
+.navBar {
+    background-color: $primary;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    li {
+        list-style: none;
+        
+    }
+
+    a {
+        text-decoration: none;
+        color: $fontSecondaryColor;
+    }
+
+    h2 {
+        color: $fontSecondaryColor;
+    }
+}
