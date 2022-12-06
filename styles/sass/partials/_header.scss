@@ -2,7 +2,41 @@
 
 header {
     background-color: $primary;
-    
+    height: 50vh;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+
+        .willowH1 {
+            
+            display: flex;
+            flex-basis: 65%;
+
+            img {
+                position: relative;
+                left: 0%;
+                min-width: 35%;
+            
+            }
+
+            h1 {
+                position: relative;
+                left: -15%;
+                width: 100%;
+                padding: 5%;
+                text-transform: uppercase;
+            }
+        }
 
 
+
+        .homePhoto {
+            flex-basis: 35%;
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
 }

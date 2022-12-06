@@ -3,24 +3,34 @@
 
 .navBar {
     background-color: $primary;
+    height: 10vh;
+    display: flex;
+    margin-bottom: 5%;
 
     ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     li {
         list-style: none;
-        
+        padding: 0px 15px;
     }
 
     a {
         text-decoration: none;
         color: $fontSecondaryColor;
+
+        &:hover,  
+        &:focus {
+            color: $secondary;
+        }
     }
 
     h2 {
         color: $fontSecondaryColor;
+        text-transform: uppercase;
     }
 }

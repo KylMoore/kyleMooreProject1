@@ -226,34 +226,9 @@ html {
   overflow: hidden;
 }
 
-.navBar {
-  background-color: #345231;
-}
-.navBar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.navBar li {
-  list-style: none;
-}
-.navBar a {
-  text-decoration: none;
-  color: #f6f6f6;
-}
-.navBar h2 {
-  color: #f6f6f6;
-}
-
 h1 {
   font-family: "AbrilFatface";
-  font-size: Regular, 80px;
+  font-size: 80px;
   color: #f6f6f6;
   line-height: 92px;
   letter-spacing: 1px;
@@ -261,28 +236,28 @@ h1 {
 
 h2 {
   font-family: "AbrilFatface";
-  font-size: Regular, 42px;
+  font-size: 42px;
   color: #1f1f1f;
   letter-spacing: 1px;
 }
 
 h3 {
   font-family: "AbrilFatface";
-  font-size: Regular, 32px;
+  font-size: 32px;
   color: #1f1f1f;
   letter-spacing: 1px;
 }
 
 h4 {
   font-family: "AbrilFatface";
-  font-size: Regular, 24px;
+  font-size: 24px;
   color: #1f1f1f;
   letter-spacing: 1px;
 }
 
 menu {
   font-family: "Montserrat";
-  font-size: Regular, 20px;
+  font-size: 20px;
   color: #f6f6f6;
   line-height: 29px;
   letter-spacing: 1px;
@@ -290,7 +265,7 @@ menu {
 
 button {
   font-family: "AbrilFatface";
-  font-size: Regular, 20px;
+  font-size: 20px;
   color: #1f1f1f;
   line-height: 32px;
   letter-spacing: 1px;
@@ -298,12 +273,157 @@ button {
 
 body {
   font-family: "Montserrat";
-  font-size: Regular, 20px;
+  font-size: 20px;
   color: #1f1f1f;
   line-height: 32px;
   letter-spacing: 0px;
 }
 
+html {
+  background-color: #345231;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.navBar {
+  background-color: #345231;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5%;
+}
+.navBar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+.navBar li {
+  list-style: none;
+  padding: 0px 15px;
+}
+.navBar a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+.navBar a:hover, .navBar a:focus {
+  color: #e4a436;
+}
+.navBar h2 {
+  color: #f6f6f6;
+  text-transform: uppercase;
+}
+
 header {
   background-color: #345231;
+  height: 50vh;
+}
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .wrapper .willowH1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 65%;
+      flex-basis: 65%;
+}
+header .wrapper .willowH1 img {
+  position: relative;
+  left: 0%;
+  min-width: 35%;
+}
+header .wrapper .willowH1 h1 {
+  position: relative;
+  left: -15%;
+  width: 100%;
+  padding: 5%;
+  text-transform: uppercase;
+}
+header .wrapper .homePhoto {
+  -ms-flex-preferred-size: 35%;
+      flex-basis: 35%;
+}
+header .wrapper .homePhoto img {
+  width: 100%;
+}
+
+main {
+  background-color: #f6f6f6;
+}
+
+.bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5%;
+}
+.bio h2 {
+  font-family: "AbrilFatface";
+  font-size: 42px;
+  text-transform: uppercase;
+}
+.bio p {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+}
+.bio a {
+  font-family: "AbrilFatface";
+  font-size: 20px;
+  color: #1f1f1f;
+  background-color: #e4a436;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1% 2.5%;
+  font-weight: bold;
+}
+
+.favThingsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.favThingsContainer .imgContainer {
+  width: 45%;
+}
+.favThingsContainer .imgContainer img {
+  max-width: 100%;
+}
+.favThingsContainer .contentContainer {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
