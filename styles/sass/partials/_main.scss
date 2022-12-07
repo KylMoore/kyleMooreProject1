@@ -4,6 +4,9 @@ main {
     background-color: $quinary;
 }
 
+
+// Bio Section Start
+
 .bio {
     display: flex;
     flex-direction: column;
@@ -36,10 +39,15 @@ main {
     }
 }
 
+// Bio Section End
+
+
+// Favorite things section Start
 
 .favThingsContainer {
     display: flex;
     position: relative;
+    margin-top: 10%;
 
     .backgroundColor {
         background-color: $tertiary;
@@ -51,20 +59,181 @@ main {
     }
 
     .imgContainer {
-        width: 45%;
+        width: 50%;
 
         img {
             position: relative;
-            width: 100%;
-            height: 100%;
+            width: 95%;
+            height: 98%;
             bottom: 5%;
         }
     }
 
     .contentContainer {
-        width: 50%;
+        width: 40%;
         display: flex;
         flex-direction: column;
+        margin-left: 10%;
 
+        h3 {
+            font-size: $h3FontSize;
+        }
+
+        a {
+            font-family: $buttonText;
+            font-size: $buttonFontSize;
+            color: $quaternary;
+            background-color: $secondary;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1% 2.5%;
+            font-weight: bold;
+            width: fit-content;
+        }
     }
 }
+
+// Favorite things section end
+
+
+// Bucket list section start
+
+.bucketList {
+    display: flex;
+    position: relative;
+    margin-top: 10%;
+
+    .contentContainer {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+        align-items: flex-end;
+
+        h3 {
+            font-size: $h3FontSize;
+        }
+
+        p {
+            text-align: right;
+        }
+
+        a {
+            font-family: $buttonText;
+            font-size: $buttonFontSize;
+            color: $quaternary;
+            background-color: $secondary;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1% 2.5%;
+            font-weight: bold;
+            width: fit-content;
+        }
+    }
+
+    .imgContainer {
+        width: 50%;
+
+        img {
+            position: relative;
+            width: 105%;
+            height: 98%;
+            bottom: 5%;
+            right: 5%;
+        }
+    }
+
+    .backgroundColor {
+        background-color: $primary;
+        position: absolute;
+        right: -15%;
+        top: 0;
+        bottom: 0;
+        width: 65%;
+    }
+}
+
+// Bucket list section end
+
+
+// Journey Section start
+
+.journeyContainer {
+    display: flex;
+    margin-top: 10%;
+    background-color: $quinary;
+
+    .imgContainer {
+        width: 25%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .contentContainer {
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+
+        h3 {
+            font-size: $h3FontSize;
+        }
+
+        a {
+            font-family: $buttonText;
+            font-size: $buttonFontSize;
+            color: $quaternary;
+            background-color: $secondary;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 1% 2.5%;
+            font-weight: bold;
+            width: fit-content;
+        }
+    }
+}
+
+// Journey Section end 
+
+
+// Background Image Section start
+
+.backgroundImgSection {
+        margin-top: 10%;
+}
+
+// Background Image section end
+
+
+// Gallery Section Start
+
+.gallery {
+    margin-top: 10%;
+
+    ul{
+        display: flex;
+        padding: 0;
+
+        li {
+            list-style: none;
+            width: 100%;
+            padding: 1%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// Gallery Section end
+
+
+// Information section start
+
+
+
+// Information section start

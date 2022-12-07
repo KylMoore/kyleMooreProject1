@@ -411,6 +411,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  margin-top: 10%;
 }
 .favThingsContainer .backgroundColor {
   background-color: #709b6b;
@@ -421,16 +422,16 @@ main {
   width: 65%;
 }
 .favThingsContainer .imgContainer {
-  width: 45%;
+  width: 50%;
 }
 .favThingsContainer .imgContainer img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 95%;
+  height: 98%;
   bottom: 5%;
 }
 .favThingsContainer .contentContainer {
-  width: 50%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,4 +439,144 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 10%;
+}
+.favThingsContainer .contentContainer h3 {
+  font-size: 32px;
+}
+.favThingsContainer .contentContainer a {
+  font-family: "AbrilFatface";
+  font-size: 20px;
+  color: #1f1f1f;
+  background-color: #e4a436;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1% 2.5%;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.bucketList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-top: 10%;
+}
+.bucketList .contentContainer {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 10%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.bucketList .contentContainer h3 {
+  font-size: 32px;
+}
+.bucketList .contentContainer p {
+  text-align: right;
+}
+.bucketList .contentContainer a {
+  font-family: "AbrilFatface";
+  font-size: 20px;
+  color: #1f1f1f;
+  background-color: #e4a436;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1% 2.5%;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.bucketList .imgContainer {
+  width: 50%;
+}
+.bucketList .imgContainer img {
+  position: relative;
+  width: 105%;
+  height: 98%;
+  bottom: 5%;
+  right: 5%;
+}
+.bucketList .backgroundColor {
+  background-color: #345231;
+  position: absolute;
+  right: -15%;
+  top: 0;
+  bottom: 0;
+  width: 65%;
+}
+
+.journeyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10%;
+  background-color: #f6f6f6;
+}
+.journeyContainer .imgContainer {
+  width: 25%;
+}
+.journeyContainer .imgContainer img {
+  width: 100%;
+}
+.journeyContainer .contentContainer {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10%;
+}
+.journeyContainer .contentContainer h3 {
+  font-size: 32px;
+}
+.journeyContainer .contentContainer a {
+  font-family: "AbrilFatface";
+  font-size: 20px;
+  color: #1f1f1f;
+  background-color: #e4a436;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1% 2.5%;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.backgroundImgSection {
+  margin-top: 10%;
+}
+
+.gallery {
+  margin-top: 10%;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.gallery ul li {
+  list-style: none;
+  width: 100%;
+  padding: 1%;
+}
+.gallery ul li img {
+  width: 100%;
+  height: 100%;
 }
