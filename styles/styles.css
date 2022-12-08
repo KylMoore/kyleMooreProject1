@@ -283,6 +283,10 @@ html {
   background-color: #345231;
 }
 
+main {
+  margin-bottom: -2%;
+}
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -596,11 +600,17 @@ main {
   list-style: none;
 }
 .informationSection ul li {
-  width: 40%;
+  width: 45%;
 }
 .informationSection ul li a {
   text-decoration: none;
 }
 .informationSection ul h3 {
   text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  color: #f6f6f6;
+  background-color: #1f1f1f;
 }

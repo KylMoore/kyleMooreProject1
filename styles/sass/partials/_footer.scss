@@ -1,3 +1,8 @@
+@use "./variables" as *;
+
 footer {
-    margin-top: 10%;
+    text-align: center;
+    color: $fontSecondaryColor;
+    background-color: $quaternary;
+
 }
