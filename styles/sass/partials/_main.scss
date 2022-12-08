@@ -201,7 +201,7 @@ main {
 // Background Image Section start
 
 .backgroundImgSection {
-        margin-top: 10%;
+    margin-top: 10%;
 }
 
 // Background Image section end
@@ -212,7 +212,7 @@ main {
 .gallery {
     margin-top: 10%;
 
-    ul{
+    ul {
         display: flex;
         padding: 0;
 
@@ -245,6 +245,7 @@ main {
 
         li {
             width: 45%;
+
             a {
                 text-decoration: none;
             }
@@ -257,3 +258,83 @@ main {
 }
 
 // Information section end
+
+
+
+
+
+
+
+
+
+
+
+.contactMe {
+
+    li {
+        list-style: none;
+    }
+
+    header {
+        margin-bottom: 0;
+
+        .contactHeader {
+
+            .contactBackgroundImage {
+                background-image: url(./assets/contact-image-1.jpg);
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 10%;
+                bottom: 32%;
+            }
+
+            h1 {
+                text-transform: uppercase;
+                position: absolute;
+                bottom: -18.5%;
+                left: 10%;
+            }
+        }
+    }
+
+    main {
+        margin-top: 1.5%;
+
+        .contactContainer {
+            display: flex;
+
+            .contactInfo {
+                display: flex;
+                flex-direction: column;
+
+                nav {
+                    display: flex;
+                    flex-direction: row;
+                }
+            }
+
+            .form {
+
+                height: 50%;
+
+                button {
+                    font-family: $buttonText;
+                    font-size: $buttonFontSize;
+                    color: $quaternary;
+                    background-color: $secondary;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 1% 2.5%;
+                    font-weight: bold;
+                    width: fit-content;
+
+                    &:hover,
+                    &:focus {
+                        color: $fontSecondaryColor;
+                    }
+                }
+            }
+        }
+    }
+}

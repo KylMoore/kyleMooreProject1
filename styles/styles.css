@@ -300,6 +300,7 @@ main {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 5%;
+  margin-top: -2.5%;
 }
 .navBar ul {
   display: -webkit-box;
@@ -607,6 +608,72 @@ main {
 }
 .informationSection ul h3 {
   text-transform: uppercase;
+}
+
+.contactMe li {
+  list-style: none;
+}
+.contactMe header {
+  margin-bottom: 0;
+}
+.contactMe header .contactHeader .contactBackgroundImage {
+  background-image: url(./assets/contact-image-1.jpg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  bottom: 32%;
+}
+.contactMe header .contactHeader h1 {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -18.5%;
+  left: 10%;
+}
+.contactMe main {
+  margin-top: 1.5%;
+}
+.contactMe main .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactMe main .contactContainer .contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactMe main .contactContainer .contactInfo nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.contactMe main .contactContainer .form {
+  height: 50%;
+}
+.contactMe main .contactContainer .form button {
+  font-family: "AbrilFatface";
+  font-size: 20px;
+  color: #1f1f1f;
+  background-color: #e4a436;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1% 2.5%;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contactMe main .contactContainer .form button:hover, .contactMe main .contactContainer .form button:focus {
+  color: #f6f6f6;
 }
 
 footer {
