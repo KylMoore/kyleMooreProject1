@@ -299,8 +299,8 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 5%;
-  margin-top: -2.5%;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
 .navBar ul {
   display: -webkit-box;
@@ -332,7 +332,7 @@ main {
 
 header {
   background-color: #345231;
-  height: 50vh;
+  height: 35vh;
 }
 header .wrapper {
   display: -webkit-box;
@@ -564,7 +564,10 @@ main {
 }
 
 .backgroundImgSection {
-  margin-top: 10%;
+  margin-top: 5%;
+}
+.backgroundImgSection img {
+  width: 100%;
 }
 
 .gallery {
@@ -599,6 +602,7 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   list-style: none;
+  margin-bottom: 10%;
 }
 .informationSection ul li {
   width: 45%;
@@ -614,7 +618,7 @@ main {
   list-style: none;
 }
 .contactMe header {
-  margin-bottom: 0;
+  height: 40vh;
 }
 .contactMe header .contactHeader .contactBackgroundImage {
   background-image: url(./assets/contact-image-1.jpg);
@@ -622,21 +626,27 @@ main {
   left: 0;
   right: 0;
   top: 10%;
-  bottom: 32%;
+  bottom: 50%;
 }
 .contactMe header .contactHeader h1 {
   text-transform: uppercase;
   position: absolute;
-  bottom: -18.5%;
-  left: 10%;
+  margin-bottom: 0%;
+  line-height: 65%;
+  bottom: 0%;
+  left: 20%;
 }
 .contactMe main {
-  margin-top: 1.5%;
+  margin-top: 0%;
+  padding: 5% 0;
 }
 .contactMe main .contactContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .contactMe main .contactContainer .contactInfo {
   display: -webkit-box;
@@ -646,8 +656,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 30%;
 }
-.contactMe main .contactContainer .contactInfo nav {
+.contactMe main .contactContainer .contactInfo .contactLogos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -655,6 +666,20 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.contactMe main .contactContainer .contactInfo .contactLogos .svg {
+  fill: #345231;
+  height: 40px;
+  padding: 5%;
+  margin-right: 20px;
+}
+.contactMe main .contactContainer .contactInfo h4 {
+  margin: 5% 0 0 0%;
+}
+.contactMe main .contactContainer .contactInfo .addressList {
+  padding-left: 0%;
 }
 .contactMe main .contactContainer .form {
   height: 50%;
@@ -671,30 +696,39 @@ main {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  border: none;
 }
 .contactMe main .contactContainer .form button:hover, .contactMe main .contactContainer .form button:focus {
   color: #f6f6f6;
 }
+.contactMe footer {
+  text-align: center;
+  color: #f6f6f6;
+  background-color: #1f1f1f;
+  margin-top: 2%;
+}
 
 .blog header {
-  margin-bottom: 0;
+  height: 40vh;
 }
 .blog header .blogHeader .blogBackgroundImage {
   background-image: url(./assets/blog-image-1.jpg);
   position: absolute;
   left: 0;
   right: 0;
-  top: 20%;
-  bottom: 20%;
+  top: 10%;
+  bottom: 50%;
 }
 .blog header .blogHeader h1 {
   text-transform: uppercase;
   position: absolute;
-  bottom: -23%;
+  margin-bottom: 0%;
+  line-height: 65%;
+  bottom: 0%;
   left: 10%;
 }
 .blog main {
-  padding-top: 15%;
+  padding-top: 5%;
 }
 .blog main .blogMain {
   display: -webkit-box;
@@ -709,13 +743,25 @@ main {
           justify-content: space-between;
 }
 .blog main .blogMain .leftSide {
-  width: 30%;
+  width: 35%;
+  padding: 5%;
+}
+.blog main .blogMain .leftSide h4 {
+  text-transform: uppercase;
 }
 .blog main .blogMain .leftSide img {
   width: 100%;
 }
+.blog main .blogMain .leftSide a {
+  text-decoration: none;
+  color: #709b6b;
+}
+.blog main .blogMain .leftSide ul {
+  padding-left: 10%;
+}
 .blog main .blogMain .rightSide {
-  width: 60%;
+  width: 65%;
+  padding: 0% 0% 0% 5%;
 }
 .blog main .blogMain .rightSide h3 {
   text-transform: uppercase;
@@ -728,9 +774,14 @@ main {
   border-bottom: 5px solid #345231;
 }
 .blog main .blogMain .rightSide .blogGalleryItem1 {
+  margin: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.blog main .blogMain .rightSide .blogGalleryItem1 img {
+  width: 100%;
+  height: 100%;
 }
 .blog main .blogMain .rightSide .blogGalleryItem1 .blogItem1P {
   display: -webkit-box;
@@ -740,11 +791,17 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0 0 0 5%;
 }
 .blog main .blogMain .rightSide .blogGalleryItem2 {
+  margin: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+.blog main .blogMain .rightSide .blogGalleryItem2 img {
+  width: 100%;
+  height: 100%;
 }
 .blog main .blogMain .rightSide .blogGalleryItem2 .blogItem2P {
   display: -webkit-box;
@@ -754,10 +811,70 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 0 0 0 5%;
+}
+.blog footer {
+  text-align: center;
+  color: #f6f6f6;
+  background-color: #1f1f1f;
+  margin: 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 60%;
+}
+.form ::-webkit-input-placeholder {
+  padding: 5%;
+  font-family: "Montserrat";
+}
+.form ::-moz-placeholder {
+  padding: 5%;
+  font-family: "Montserrat";
+}
+.form :-ms-input-placeholder {
+  padding: 5%;
+  font-family: "Montserrat";
+}
+.form ::-ms-input-placeholder {
+  padding: 5%;
+  font-family: "Montserrat";
+}
+.form ::placeholder {
+  padding: 5%;
+  font-family: "Montserrat";
+}
+.form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 2.5%;
+  margin: 1%;
+}
+.form textarea {
+  width: 100%;
+  resize: none;
+  padding: 2.5%;
+  height: 25vh;
+  margin: 1%;
+}
+.form button {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin: 1%;
 }
 
 footer {
   text-align: center;
   color: #f6f6f6;
   background-color: #1f1f1f;
+  margin: -110px 0 -20px 0;
 }

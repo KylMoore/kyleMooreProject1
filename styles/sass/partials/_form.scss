@@ -1,0 +1,32 @@
+@use "./variables" as *;
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+
+    ::placeholder {
+        padding: 5%;
+        font-family: $bodyText;
+    }
+
+    input {
+        display: flex;
+        flex-grow: 1;
+        padding: 2.5%;
+        margin: 1%;
+    }
+
+    textarea {
+        width: 100%;
+        resize: none;
+        padding: 2.5%;
+        height: 25vh;
+        margin: 1%;
+    }
+
+    button {
+        flex-grow: 1;
+        margin: 1%;
+    }
+}
