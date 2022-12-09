@@ -676,6 +676,86 @@ main {
   color: #f6f6f6;
 }
 
+.blog header {
+  margin-bottom: 0;
+}
+.blog header .blogHeader .blogBackgroundImage {
+  background-image: url(./assets/blog-image-1.jpg);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20%;
+  bottom: 20%;
+}
+.blog header .blogHeader h1 {
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -23%;
+  left: 10%;
+}
+.blog main {
+  padding-top: 15%;
+}
+.blog main .blogMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog main .blogMain .leftSide {
+  width: 30%;
+}
+.blog main .blogMain .leftSide img {
+  width: 100%;
+}
+.blog main .blogMain .rightSide {
+  width: 60%;
+}
+.blog main .blogMain .rightSide h3 {
+  text-transform: uppercase;
+  margin-top: auto;
+}
+.blog main .blogMain .rightSide .blogP {
+  border-bottom: 5px solid #345231;
+}
+.blog main .blogMain .rightSide .blogGallery {
+  border-bottom: 5px solid #345231;
+}
+.blog main .blogMain .rightSide .blogGalleryItem1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog main .blogMain .rightSide .blogGalleryItem1 .blogItem1P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.blog main .blogMain .rightSide .blogGalleryItem2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.blog main .blogMain .rightSide .blogGalleryItem2 .blogItem2P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 footer {
   text-align: center;
   color: #f6f6f6;

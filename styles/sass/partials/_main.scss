@@ -267,7 +267,7 @@ main {
 
 
 
-
+// Contact Page Start
 
 .contactMe {
 
@@ -338,3 +338,89 @@ main {
         }
     }
 }
+
+// Contact Page End
+
+
+// Blog Page Start
+
+.blog {
+
+    header {
+        margin-bottom: 0;
+
+        .blogHeader {
+
+            .blogBackgroundImage {
+                background-image: url(./assets/blog-image-1.jpg);
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 20%;
+                bottom: 20%;
+            }
+
+            h1 {
+                text-transform: uppercase;
+                position: absolute;
+                bottom: -23%;
+                left: 10%;
+            }
+        }
+    }
+
+    main {
+        padding-top: 15%;
+
+        .blogMain {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .leftSide {
+                width: 30%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .rightSide {
+                width: 60%;
+
+                h3 {
+                    text-transform: uppercase;
+                    margin-top: auto;
+                }
+
+                .blogP {
+                    border-bottom: 5px solid $primary;
+                }
+
+                .blogGallery {
+                    border-bottom: 5px solid $primary;
+                }
+
+                .blogGalleryItem1 {
+                    display: flex;
+                    
+                    .blogItem1P {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+                .blogGalleryItem2 {
+                    display: flex;
+
+                    .blogItem2P {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Blog Page End
