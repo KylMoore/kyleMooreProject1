@@ -23,10 +23,10 @@
         <div class="wrapper">
             <nav>
                 <ul>
-                    <li>
+                    <li class="hidden">
                         <a href="index.html">Home</a>
                     </li>
-                    <li>
+                    <li class="hidden">
                         <a href="#whosWillow">About</a>
                     </li>
                     <li>
@@ -34,10 +34,10 @@
                             <h2>Willow</h2>
                         </a>
                     </li>
-                    <li>
+                    <li class="hidden">
                         <a href="blogPost.html">Blog</a>
                     </li>
-                    <li>
+                    <li class="hidden">
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -163,9 +163,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blogForm">
 
-                    </div>
+                    <form class="form">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="email" placeholder="Email Address">
+                        <textarea type="text" name="message" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+
                 </div>
             </div>
         </div>
